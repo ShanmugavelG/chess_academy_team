@@ -1,0 +1,36 @@
+.Thefirst{
+    height: 500px;
+    width: 500px;
+    border-radius: 12%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    transition: height 0.4s ease-in-out,width 0.4s ease-in-out, background-color 0.4s ease-in-out;
+}
+.Thefirst:hover{
+    height: 500px;
+    width: 500px;
+    background-color:white;
+    box-shadow: 30px 30px 0px 0px #bcd4f5;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-5px);
+    
+}
+.theentire{
+    background-color: lightblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fonted{
+    font-family: Bebas Neue;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
